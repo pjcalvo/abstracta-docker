@@ -2,7 +2,7 @@
   <div>
     <br>
     <b-container>
-      <b-row> 
+      <b-row>
         <b-col order = "1" order-md="2">
           <img 
             src="../src/assets/logo-abs.svg" 
