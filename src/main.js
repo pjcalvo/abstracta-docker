@@ -8,12 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueSession from 'vue-session'
 import VueResource from 'vue-resource'
-import browserDetect from 'vue-browser-detect-plugin'
 
 Vue.use(BootstrapVue)
 Vue.use(VueResource)
 Vue.use(VueSession)
-Vue.use(browserDetect)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
