@@ -20,10 +20,8 @@ Vue.mixin({
   methods: {
     verifyBrowser: function () {
       if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-        alert('safari o es')
         return false
       } else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1 && navigator.userAgent.toLowerCase().indexOf('73') === -1) {
-        alert('chrome 67')
         return false
       }
       return true

@@ -13,7 +13,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  background-color: rgb(37, 46, 57);
+  background-color: rgb(37, 46, 57) !important;
 }
 
 .center-container{
