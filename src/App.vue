@@ -6,7 +6,7 @@
         <b-col order = "1" order-md="2">
           <img 
             src="../src/assets/logo-abs.svg" 
-            class= "logo-main absolute-center" 
+            class= "logo-main" 
             alt="Copey Learning Center"
             v-if="showImage"/>
         </b-col>
@@ -59,7 +59,6 @@ html, body {
 
 .absolute-center{
   width: 100%;
-  height: 50%;
   overflow: auto;
   margin: auto;
   position: absolute;
