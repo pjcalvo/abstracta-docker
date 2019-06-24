@@ -4,7 +4,7 @@
     <b-container>
       <b-row>
         <b-col order = "1" order-md="2">
-          <img 
+          <img id="mainImagen"
             src="../../src/assets/logo-abs.svg" 
             class= "logo-main" 
             alt="Copey Learning Center"

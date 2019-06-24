@@ -21,7 +21,7 @@ Vue.mixin({
     verifyBrowser: function () {
       if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
         return false
-      } else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1 && navigator.userAgent.toLowerCase().indexOf('73') === -1) {
+      } else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1 && navigator.userAgent.toLowerCase().indexOf('74') === -1) {
         return false
       }
       return true
